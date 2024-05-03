@@ -7,10 +7,10 @@ c = [-3, -1]
 # Coefficients of the inequality constraints
 A_ub = [[1, -1],
         [-1, -1],
-        [2, -1]]
+        [2, 1]]
 
 # Right-hand side of the inequality constraints
-b_ub = [-1, -3, 2]
+b_ub = [-1, -3, 4]
 
 # Bounds for each variable
 x_bounds = (0, None)  # Variables are non-negative
